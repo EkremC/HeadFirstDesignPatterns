@@ -1,11 +1,6 @@
-package Chapter01_IntroToDesignPatterns;
+package Chapter01_IntroToDesignPatterns.duck;
 
 public class RubberDuck extends Duck {
-
-    @Override
-    public void quack() {
-        System.out.println("RubberDuck quack");
-    }
 
     @Override
     public void display() {

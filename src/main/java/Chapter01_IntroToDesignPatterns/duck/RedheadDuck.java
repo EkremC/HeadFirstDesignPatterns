@@ -1,4 +1,4 @@
-package Chapter01_IntroToDesignPatterns;
+package Chapter01_IntroToDesignPatterns.duck;
 
 public class RedheadDuck extends Duck {
 
