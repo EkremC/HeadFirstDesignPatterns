@@ -1,4 +1,4 @@
-package Chapter04_TheFactoryPattern;
+package Chapter04_TheFactoryPattern.pizzafm;
 
 public class NYStyleClamPizza extends Pizza {
 
