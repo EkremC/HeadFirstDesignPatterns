@@ -1,6 +1,6 @@
 package Chapter08_TheTemplateMethodPattern.barista;
 
-public class Tee extends CaffeineBeverage {
+public class Tea extends CaffeineBeverage {
 
     public void addCondiments() {
         System.out.println("Adding the lemon");
