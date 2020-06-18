@@ -1,19 +1,17 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermergeri;
-
-import java.util.Iterator;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermerger;
 
 public class Waitress {
-    Menu pancakeHouseMenu;
-    Menu dinerMenu;
+    PancakeHouseMenu pancakeHouseMenu;
+    DinerMenu dinerMenu;
 
-    public Waitress(Menu pancakeHouseMenu, Menu dinerMenu) {
+    public Waitress(PancakeHouseMenu pancakeHouseMenu, DinerMenu dinerMenu) {
         this.pancakeHouseMenu = pancakeHouseMenu;
         this.dinerMenu = dinerMenu;
     }
 
     public void printMenu() {
-        Iterator<MenuItem> pancakeIterator = pancakeHouseMenu.createIterator();
-        Iterator<MenuItem> dinerIterator = dinerMenu.createIterator();
+        Iterator pancakeIterator = pancakeHouseMenu.createIterator();
+        Iterator dinerIterator = dinerMenu.createIterator();
 
         System.out.println("MENU\n----\nBREAKFAST");
         printMenu(pancakeIterator);
@@ -21,7 +19,7 @@ public class Waitress {
         printMenu(dinerIterator);
     }
 
-    private void printMenu(Iterator<MenuItem> iterator) {
+    private void printMenu(Iterator iterator) {
         while (iterator.hasNext()) {
             MenuItem menuItem = iterator.next();
             System.out.print(menuItem.getName() + ", ");

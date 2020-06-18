@@ -1,4 +1,4 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermergeri;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermergeri;
 
 public class MenuTestDrive {
     public static void main(String[] args) {

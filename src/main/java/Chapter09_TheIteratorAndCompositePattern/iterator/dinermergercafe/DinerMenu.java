@@ -1,6 +1,8 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermerger;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermergercafe;
 
-public class DinerMenu {
+import java.util.Iterator;
+
+public class DinerMenu implements Menu {
     static final int MAX_ITEMS = 6;
     int numberOfItems = 0;
     MenuItem[] menuItems;

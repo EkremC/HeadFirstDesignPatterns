@@ -1,4 +1,4 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermergeri;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermergercafe;
 
 public class MenuItem {
     String name;

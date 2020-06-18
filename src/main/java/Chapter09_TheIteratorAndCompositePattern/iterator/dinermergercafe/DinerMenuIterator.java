@@ -1,4 +1,4 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermergercafe;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermergercafe;
 
 import java.util.Iterator;
 

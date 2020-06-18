@@ -1,9 +1,8 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermergeri;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermerger;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 
-public class PancakeHouseMenu implements Menu {
+public class PancakeHouseMenu {
     ArrayList<MenuItem> menuItems;
 
     public PancakeHouseMenu() {
@@ -36,6 +35,6 @@ public class PancakeHouseMenu implements Menu {
     }
 
     public Iterator createIterator() {
-        return menuItems.iterator();
+        return new PancakeHouseIterator(menuItems);
     }
 }

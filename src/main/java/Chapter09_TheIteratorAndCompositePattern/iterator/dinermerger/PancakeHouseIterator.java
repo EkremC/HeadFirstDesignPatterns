@@ -1,4 +1,4 @@
-package Chapter09_TheIteratorAndCompositePattern.dinermerger;
+package Chapter09_TheIteratorAndCompositePattern.iterator.dinermerger;
 
 import java.util.ArrayList;
 
