@@ -1,4 +1,4 @@
-package Chapter12_CompoundPatterns;
+package Chapter12_CompoundPatterns.combining;
 
 import java.util.ArrayList;
 import java.util.Iterator;

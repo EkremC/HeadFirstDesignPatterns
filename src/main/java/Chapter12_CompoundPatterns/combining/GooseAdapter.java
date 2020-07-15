@@ -1,14 +1,16 @@
-package Chapter12_CompoundPatterns;
+package Chapter12_CompoundPatterns.combining;
 
-public class DecoyDuck implements Quackable {
+public class GooseAdapter implements Quackable {
+    Goose goose;
     Observable observable;
 
-    public DecoyDuck() {
+    public GooseAdapter(Goose goose) {
+        this.goose = goose;
         observable = new Observable(this);
     }
 
     public void quack() {
-        System.out.println("<< Silence >>");
+        goose.honk();
         notifyObservers();
     }
 
@@ -21,6 +23,6 @@ public class DecoyDuck implements Quackable {
     }
 
     public String toString() {
-        return "Decoy Duck";
+        return "Goose pretending to be a Duck";
     }
 }

@@ -1,9 +1,9 @@
-package Chapter12_CompoundPatterns;
+package Chapter12_CompoundPatterns.combining;
 
-public class MallardDuck implements Quackable {
+public class RedheadDuck implements Quackable {
     Observable observable;
 
-    public MallardDuck() {
+    public RedheadDuck() {
         observable = new Observable(this);
     }
 
@@ -21,6 +21,6 @@ public class MallardDuck implements Quackable {
     }
 
     public String toString() {
-        return "Mallard Duck";
+        return "Redhead Duck";
     }
 }

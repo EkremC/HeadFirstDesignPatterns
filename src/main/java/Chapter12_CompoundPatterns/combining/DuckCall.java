@@ -1,4 +1,4 @@
-package Chapter12_CompoundPatterns;
+package Chapter12_CompoundPatterns.combining;
 
 public class DuckCall implements Quackable {
 	Observable observable;

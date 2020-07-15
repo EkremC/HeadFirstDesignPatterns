@@ -1,14 +1,14 @@
-package Chapter12_CompoundPatterns;
+package Chapter12_CompoundPatterns.combining;
 
-public class RedheadDuck implements Quackable {
+public class RubberDuck implements Quackable {
     Observable observable;
 
-    public RedheadDuck() {
+    public RubberDuck() {
         observable = new Observable(this);
     }
 
     public void quack() {
-        System.out.println("Quack");
+        System.out.println("Squeak");
         notifyObservers();
     }
 
@@ -21,6 +21,6 @@ public class RedheadDuck implements Quackable {
     }
 
     public String toString() {
-        return "Redhead Duck";
+        return "Rubber Duck";
     }
 }
